@@ -15,7 +15,7 @@ public class ejercicio2 {
 			System.out.print("Introduzca el radio de la circunferencia: ");
 			try {
 				aux = teclado.nextLine();
-				radio = Float.parseFloat(aux);
+				radio = Double.parseDouble(aux);
 			} catch (Exception e) {
 				System.out.println("Error, no has introducido un número");
 				error = true;
